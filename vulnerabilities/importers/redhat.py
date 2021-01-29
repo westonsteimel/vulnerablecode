@@ -101,7 +101,7 @@ def to_advisory(advisory_data):
         references.append(
             Reference(
                 reference_id=rhsa,
-                url="https://access.redhat.com/errata/{rhsa}",
+                url=f"https://access.redhat.com/errata/{rhsa}",
             )
         )
 
